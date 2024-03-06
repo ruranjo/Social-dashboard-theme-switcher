@@ -11,7 +11,7 @@ export const brightRed: string = 'hsl(356, 69%, 56%)';
 
 export const facebookBlue: string = 'hsl(208, 92%, 53%)';
 export const twitterBlue: string = 'hsl(203, 89%, 53%)';
-export const instagramGradient: string = 'linear-gradient(hsl(37, 97%, 70%), hsl(329, 70%, 58%))';
+export const instagramGradient: string = 'hsl(329, 70%, 58%)';
 export const youtubeRed: string = 'hsl(348, 97%, 39%)';
 
 // Dark Theme
