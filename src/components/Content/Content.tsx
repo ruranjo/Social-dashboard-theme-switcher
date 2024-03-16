@@ -47,7 +47,7 @@ export interface styledApp {
       },
     },
     mainContainer:{
-        border:'1px solid red',
+        //border:'1px solid red',
         zIndex:100,
         width:'80%',
         height:'95%',
@@ -58,7 +58,7 @@ export interface styledApp {
         },
     },
     header:{
-        border:'1px solid yellow',
+        //border:'1px solid yellow',
         display:'flex',
         justifyContent:'space-between',
         alignItems:'center',
@@ -99,7 +99,7 @@ export interface styledApp {
         },
       },
       mainMediaSection:{
-        border:'1px solid yellow',
+        //border:'1px solid yellow',
         display:'flex',
         justifyContent:'space-between',
         alignItems:'center',
@@ -108,12 +108,15 @@ export interface styledApp {
         margin:'0px',
         padding:'0px',
         '@media screen and (max-width: 440px)': {
-            
+             display:'flex',
+             flexDirection:'column',
+             height:'auto',
+             gap:3
         },
       },
       secondMediaSection:{
         
-        border:'1px solid yellow',
+        //border:'1px solid yellow',
         display:'flex',
         flexDirection:'column',
         justifyContent:'space-between',
@@ -123,13 +126,16 @@ export interface styledApp {
         margin:'0px',
         padding:'0px',
         '@media screen and (max-width: 440px)': {
-            
+            display:'flex',
+             flexDirection:'column',
+             height:'auto',
         },
       },
       
       todayCars:{
         display:'flex',
         justifyContent:'space-between',
+        paddding:'1rem',
         gap:2,
         flexWrap: 'wrap',
       }

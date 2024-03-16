@@ -21,7 +21,10 @@ export interface styledCardMedia {
   const cardMediaStyle: styledCardMedia= {
     containerStyle:{ 
         minWidth: 275,
-
+        '@media screen and (max-width: 440px)': {
+          minWidth: 300,
+          maxWidth: 400,
+        },
     },
     cardContent:{
       display:'flex',
@@ -76,7 +79,7 @@ export interface styledCardMedia {
         '@media screen and (max-width: 880px)': {
           justifyContent:'center',
           textAlign:'center',
-          fontSize:'2.5rem',
+          fontSize:'1.5rem',
         },
       },
       subTitle:{

@@ -20,14 +20,21 @@ export interface styledCardMedia {
   const cardMediaStyle: styledCardMedia= {
     containerStyle:{ 
         minWidth: 275,
+        '@media screen and (max-width: 880px)': {
+          minWidth: 300,
+          maxWidth: 400,
+        },
 
     },
     cardContent:{
       display:'flex',
       flexDirection:'column',
-      paddingTop:'1rem',
-      paddingBottom:'1rem',
+      
+      padding:'1rem',
       //border:'1px solid red',
+      '@media screen and (max-width: 440px)': {
+        
+      },
     },
     iconUserContainer:{
       //border:'1px solid blue',
@@ -40,7 +47,10 @@ export interface styledCardMedia {
         height:'1.5rem',
       },
       '@media screen and (max-width: 440px)': {
-        
+        'img':{
+          width:'1rem',
+          height:'1rem',
+        },
       },
     },
     
